@@ -1,0 +1,197 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>System & Program Access</title>
+	<meta name="description" content="The HTML5 Herald">
+	<meta name="author" content="SitePoint">
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-      
+
+theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-      
+
+0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="css/styles.css?v=1.0">
+	<!--[if lt IE 9]>
+ <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+</head>
+
+
+<body>
+
+	<div class="container">
+		<h1>System & Program Access</h1>
+		<ul class="list-inline">
+			<li>
+				<div class="btn-group">
+					<a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i>Beady</a>
+					<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span      
+    class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+						<li><a href="#"><i class="icon-trash"></i> Remove</a></li>
+						<li><a href="#"><i class="icon-ban-circle"></i> Save</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="i"></i> Clear</a></li>
+					</ul>
+			</li>
+			<li>
+				<div class="btn-group">
+					<a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i>Eyed</a>
+					<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span      
+     class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+						<li><a href="#"><i class="icon-trash"></i> Remove</a></li>
+						<li><a href="#"><i class="icon-ban-circle"></i> Save</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="i"></i> Clear</a></li>
+					</ul>
+			</li>
+			<li>
+				<div class="btn-group">
+					<a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i>Little</a>
+					<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span      
+      class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+						<li><a href="#"><i class="icon-trash"></i> Remove</a></li>
+						<li><a href="#"><i class="icon-ban-circle"></i> Save</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="i"></i> Clear</a></li>
+					</ul>
+			</li>
+			<li>
+				<div class="btn-group">
+					<a class="btn btn-primary" href="#"><i class="icon-user icon-white"></i>Man-Boy</a>
+					<a class="btn btn-primary dropdown-toggle" data-toggle="dropdown" href="#"><span      
+      class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#"><i class="icon-pencil"></i> Edit</a></li>
+						<li><a href="#"><i class="icon-trash"></i> Remove</a></li>
+						<li><a href="#"><i class="icon-ban-circle"></i> Save</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="i"></i> Clear</a></li>
+					</ul>
+			</li>
+		</ul>
+		</div>
+		<br>
+		<div class="container">
+			<form>
+				<fieldset>
+					<legend>Bobby likes men!</legend>
+					<p>
+						<label>Section: </label>
+						<select id="section" data-default-option="Select Section">
+	<option value = "0">Select Section</option>
+	<option value = "1">JA Operations - Accounting Operations</option>
+	<option value = "2">JB Operations - Site Director & Site Support Office</option>
+	<option value = "3">JN Operations - NAF Accounting</option>
+	<option value = "4">JF Operations - Air Force & Army</option>
+	<option value = "5">ZC Strategy & Support - Corporate Communications</option>
+	<option value = "6">ZE Strategy & Support - Enterprise Management Services</option>
+	<option value = "7">ZH Strategy & Support - Human Resources</option>
+	<option value = "8">ZO Strategy & Support - Office of EO Programs</option>
+	<option value = "9">ZP Strategy & Support - Policy & Requirements</option>
+	<option value = "10">ZR Strategy & Support - Resource Management</option>
+	<option value = "11">ZT Strategy & Support - Information & Technology</option>
+	<option value = "12">ZX Strategy & Support - Human Capitol Program Office</option>
+	<option value = "">Other...</option>
+  </select>
+						<br>
+						<br>
+						<label>Role: </label>
+						<select id="role" disabled="true" data-default-option="Select Role">
+	<option value = "0">Select Employee Role</option>
+	<option value = "1">GS-0501</option>
+	<option value = "2">GS-0503</option>
+	<option value = "3">GS-0510</option>
+	<option value = "4">Other...</option>
+  </select>
+						<br>
+						<br>
+						<label>Name: </label>
+						<select id="name" disabled="true" data-default-option="Select Name">
+	<option value = "0">Select Employee Name</option>
+	<option value = "1">David J Lashbrook</option>
+	<option value = "2">Robert P Moore</option>
+	<option value = "3">Man Boy</option>
+	<option value = "4">Little Man Boy</option>
+	<option value = "5">Beady Eyed Little Man Boy</option>
+	<option value = "6">Beady Eyed Little Man Boy...Looking at Me</option>
+  </select>
+						<br>
+						<br>
+						<label>Form Type: </label>
+						<select id="formType" disabled="true" data-default-option="Select form Type">
+	<option value = "0">Select form type</option>
+	<option value = "1">DD Form 2875</option>
+	<option value = "2">DFAS 1030</option>
+	<option value = "3">Man Boy</option>
+	<option value = "4">Little Man Boy</option>
+	<option value = "5">Beady Eyed Little Man Boy</option>
+	<option value = "6">Beady Eyed Little Man Boy...Looking at Me</option>
+  </select>
+						<br>
+						<br>
+						<label>New Employee: </label>
+						<select name="newEmployee" disabled="true" id="newEmployee">
+	<option value = "1">Yes</option>
+	<option value = "2">No</option>
+  </select>
+					</p>
+				</fieldset>
+			</form>
+			<script src="js/scripts.js"></script>
+
+			<div class="form-actions">
+				<button type="submit" class="btn btn-primary">Save changes</button>
+				<button type="button" class="btn">Cancel</button>
+			</div>
+		</div>
+		</div>
+</body>
+<script type="text/javascript">
+	$('#section').on('change', function() {
+		if ($("#section").val() == '0') {
+			$('#role').attr('disabled', true);
+		} else {
+			$('#role').attr('disabled', false);
+		}
+	});
+
+	$('#role').on('change', function() {
+		if ($("#role").val() == '0') {
+			$('#name').attr('disabled', true);
+		} else {
+			$('#name').attr('disabled', false);
+		}
+	});
+
+	$('#name').on('change', function() {
+		if ($("#name").val() == '0') {
+			$('#formType').attr('disabled', true);
+		} else {
+			$('#formType').attr('disabled', false);
+		}
+	});
+
+	$('#formType').on('change', function() {
+		if ($("#formType").val() == '0') {
+			$('#newEmployee').attr('disabled', true);
+		} else {
+			$('#newEmployee').attr('disabled', false);
+		}
+	});
+</script>
+
+</html>
